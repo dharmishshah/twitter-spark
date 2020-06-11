@@ -1,0 +1,130 @@
+Warning: Skip remote jar s3://spark-twitter-triangle/spark-twitter-count.jar.
+20/02/29 03:33:01 INFO RMProxy: Connecting to ResourceManager at ip-172-31-9-57.ec2.internal/172.31.9.57:8032
+20/02/29 03:33:01 INFO Client: Requesting a new application from cluster with 6 NodeManagers
+20/02/29 03:33:01 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (12288 MB per container)
+20/02/29 03:33:01 INFO Client: Will allocate AM container, with 1408 MB memory including 384 MB overhead
+20/02/29 03:33:01 INFO Client: Setting up container launch context for our AM
+20/02/29 03:33:01 INFO Client: Setting up the launch environment for our AM container
+20/02/29 03:33:01 INFO Client: Preparing resources for our AM container
+20/02/29 03:33:02 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/02/29 03:33:04 INFO Client: Uploading resource file:/mnt/tmp/spark-0e957d26-1908-4493-ade9-546c207e43d2/__spark_libs__9061754536598650000.zip -> hdfs://ip-172-31-9-57.ec2.internal:8020/user/hadoop/.sparkStaging/application_1582947090982_0001/__spark_libs__9061754536598650000.zip
+20/02/29 03:33:07 INFO Client: Uploading resource s3://spark-twitter-triangle/spark-twitter-count.jar -> hdfs://ip-172-31-9-57.ec2.internal:8020/user/hadoop/.sparkStaging/application_1582947090982_0001/spark-twitter-count.jar
+20/02/29 03:33:07 INFO S3NativeFileSystem: Opening 's3://spark-twitter-triangle/spark-twitter-count.jar' for reading
+20/02/29 03:33:07 INFO Client: Uploading resource file:/mnt/tmp/spark-0e957d26-1908-4493-ade9-546c207e43d2/__spark_conf__1266614975602023016.zip -> hdfs://ip-172-31-9-57.ec2.internal:8020/user/hadoop/.sparkStaging/application_1582947090982_0001/__spark_conf__.zip
+20/02/29 03:33:08 INFO SecurityManager: Changing view acls to: hadoop
+20/02/29 03:33:08 INFO SecurityManager: Changing modify acls to: hadoop
+20/02/29 03:33:08 INFO SecurityManager: Changing view acls groups to: 
+20/02/29 03:33:08 INFO SecurityManager: Changing modify acls groups to: 
+20/02/29 03:33:08 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(hadoop); groups with view permissions: Set(); users  with modify permissions: Set(hadoop); groups with modify permissions: Set()
+20/02/29 03:33:08 INFO Client: Submitting application application_1582947090982_0001 to ResourceManager
+20/02/29 03:33:08 INFO YarnClientImpl: Submitted application application_1582947090982_0001
+20/02/29 03:33:09 INFO Client: Application report for application_1582947090982_0001 (state: ACCEPTED)
+20/02/29 03:33:09 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1582947188153
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-31-9-57.ec2.internal:20888/proxy/application_1582947090982_0001/
+	 user: hadoop
+20/02/29 03:33:10 INFO Client: Application report for application_1582947090982_0001 (state: ACCEPTED)
+20/02/29 03:33:11 INFO Client: Application report for application_1582947090982_0001 (state: ACCEPTED)
+20/02/29 03:33:12 INFO Client: Application report for application_1582947090982_0001 (state: ACCEPTED)
+20/02/29 03:33:13 INFO Client: Application report for application_1582947090982_0001 (state: ACCEPTED)
+20/02/29 03:33:14 INFO Client: Application report for application_1582947090982_0001 (state: ACCEPTED)
+20/02/29 03:33:15 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:15 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.31.6.131
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1582947188153
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-31-9-57.ec2.internal:20888/proxy/application_1582947090982_0001/
+	 user: hadoop
+20/02/29 03:33:16 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:17 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:18 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:19 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:20 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:21 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:22 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:23 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:24 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:25 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:26 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:27 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:28 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:29 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:30 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:31 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:32 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:33 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:34 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:35 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:36 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:37 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:38 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:39 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:40 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:41 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:42 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:43 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:44 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:45 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:46 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:47 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:48 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:49 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:50 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:51 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:52 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:53 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:54 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:55 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:56 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:57 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:58 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:33:59 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:00 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:01 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:02 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:03 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:04 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:05 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:06 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:07 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:08 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:09 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:10 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:11 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:12 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:13 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:14 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:15 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:16 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:17 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:18 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:19 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:20 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:21 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:22 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:23 INFO Client: Application report for application_1582947090982_0001 (state: RUNNING)
+20/02/29 03:34:24 INFO Client: Application report for application_1582947090982_0001 (state: FINISHED)
+20/02/29 03:34:24 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.31.6.131
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1582947188153
+	 final status: SUCCEEDED
+	 tracking URL: http://ip-172-31-9-57.ec2.internal:20888/proxy/application_1582947090982_0001/
+	 user: hadoop
+20/02/29 03:34:24 INFO ShutdownHookManager: Shutdown hook called
+20/02/29 03:34:24 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-70c17b98-b233-4bdb-82c6-e368757fd372
+20/02/29 03:34:24 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-0e957d26-1908-4493-ade9-546c207e43d2
+Command exiting with ret '0'
